@@ -1,0 +1,450 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
+
+/* UNIVERSAL STYLES  */
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+   
+}
+
+h2  {
+    font-family: 'Nova Flat', cursive;
+    color: #186684;
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: 'catamaran';
+    color: #1f2022;
+    line-height: 29px;
+}
+
+i {
+    color: #e85b26;
+}
+
+img {
+    display: block;
+}
+
+.btn {
+
+    background-color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    border: 2px solid #e85b26;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: #186684;
+    font-family: 'Nova Flat';
+}
+
+
+/* HEADER STYLES */
+
+.headerContainer { 
+    margin: 0 auto;
+}
+
+.headerSpan {
+    display:block;
+}
+
+header {
+	background-image: url(assets/image-1.jpg);
+	background-size: cover;
+    min-height: 100vh;	
+    background-position: center center;
+    
+}  
+
+ul.menu a {
+    color: #186684;
+    font-family: 'Nova Flat', cursive;
+    text-decoration: none;  
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+ul.menu {
+    list-style: none;
+    color:#186684;
+    margin:0;
+    padding: 25px;
+}
+
+ul.menu li {
+	text-align: center;
+	align-items: center;
+    justify-content: center;
+}
+
+.menu a:hover {
+    color: #e85b26;
+
+}
+
+.headingBox {
+   background-color: rgba(227, 228, 234, 0.89);
+   position: absolute; 
+   left: 36rem;
+   top: 24rem;
+}
+
+
+.headingBox h1 {
+    color: #186684;
+    font-family:'Nova Flat', cursive;
+    font-size: 8rem;
+    padding: 1rem;
+
+    
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    line-height: 8rem;
+    font-weight: 200;
+}
+
+
+/* HEADER SOCIALS STYLES */
+
+
+.insta,
+.facebook,
+.snapchat,
+.twitter {
+    padding:10px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.headerSocials {
+    position: absolute;
+    top: 35%;
+    left: 95%;
+
+}
+
+
+.facebook,
+.insta,
+.snapchat,
+.twitter {
+    text-align: center;
+}
+
+
+
+/* SPECIALIZE SECTION STYLES */
+.specialize {
+    width: 50%;
+    float: left;
+}
+
+.specializePhoto {
+    width:50%;
+    float:right;
+}
+
+.specializePhoto img{
+    width: 100%;
+}
+
+
+
+/* FOOT CARE STYLES */
+
+/* container 50, img 100 */
+
+.footCareContainer {
+    clear: both;
+}
+
+.footCarePhoto {
+    width: 50%;
+    float: left;
+}
+
+.footCarePhoto img {
+    max-width: 100%;
+}
+
+.footCare {
+    width: 50%;
+    float: right;
+
+}
+
+
+.footCareContent, .specializeContent {
+    width: 70%;
+    position: absolute;
+    top: 120px;
+    left:120px;
+}
+
+.footCare, .specialize {
+    position: relative;
+
+}
+
+/* GIVING BACK SECTION */
+
+.givingBackContainer {
+    background-color: #f4f4f4;
+    clear:both;
+    padding: 40px 0;
+}
+
+.givingBackPhoto,
+.givingBackText {
+    float: left;
+}
+
+
+.givingBackText {
+    width: calc(70% - 40px);
+    margin-left: 40px;
+
+}
+
+.givingBackPhoto {
+    width: 30%;
+}
+
+.givingBackPhoto img {
+    width: 100%;
+}
+
+
+
+/* NAVIGATIONS SECTION STYLES */
+.navigations {
+    position: relative;
+}
+
+.navContent {
+    position: absolute;
+    left:25%;
+    bottom: 25%;
+    width: 50%;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.products,
+.community,
+.contact {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.navContent a {
+    font-size: 3rem;
+}
+
+.navContent p {
+    font-size: 1.5rem;
+    margin: 5px;
+    color: #186684;
+}
+
+.backgroundImage img {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+/* INSTAGRAM SECTION STYLE */
+
+.instagram {
+    padding: 5rem 0;
+}
+
+.instagram h2 {
+    text-align: center;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    width: 33%;
+    float: left;
+    padding: 20px 20px 20px 0;
+   
+}
+
+.photos img {
+    width: 100%;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: #eeeeee;
+}
+
+footer nav ul.menu a {
+    color: #1f2022;
+
+}
+
+footer h1 {
+    color: #e85b26;
+    font-family: 'Nova Flat';
+}
+
+.footerContact p,h1,
+.updateSection p,h1 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.updateSection,
+.footerContact {
+    width: 50%;
+    padding-bottom: 4rem;
+}
+
+.updateSection {
+    float: right;
+    
+}
+
+.footerContact {
+    float:left;
+}
+
+input.email {
+	width: 70%;
+	height: 2rem;
+	display: inline;
+    font-family: 'catamaran';
+    color: black;
+}
+
+.submit {
+	background-color: #186684;
+	font-family: 'catamaran';
+    border: 2px solid  #e85b26;
+	color: white;
+    height: 2rem;
+    width: 25%;
+    
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+
+.copyright p {
+    color: lightgrey;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1230px) {
+    .specializeContent, 
+    .footCareContent {
+        width: 80%;
+        left:80px;
+        top: 100px;
+
+    }
+
+
+
+}
+
+@media (max-width: 1149px) {
+
+    .headingBox{
+         left: 30rem;
+       } 
+
+    .specializeContent, 
+     .footCareContent {
+        width: 70%;
+        left:80px;
+        top: 90px;
+        font-size: 15px;
+    }
+    
+    .headerSocials {
+        top:0;
+    }
+
+
+}
+
+@media (max-width: 1063px) {
+    .headingBox h1,
+    .headerSpan {
+        font-size: 6rem;
+    }
+
+    .specializeContent, 
+    .footCareContent {
+       top: 70px;
+    }
+
+    .insta, 
+    .facebook, 
+    .snapchat,
+     .twitter {
+         font-size: 20px;
+     }
+
+     .givingBackText {
+         font-size:15px;
+     }
+   
+}
+
+@media (max-width: 1003px) {
+    .headingBox {
+        left:25rem;
+    }
+
+    .specializeContent, 
+    .footCareContent {
+        top:60px;
+    }
+
+    .navContent a {
+       font-size: 2rem;
+    }
+    /* .products, 
+    .community, 
+    .content {
+        padding: 0;
+    } */
+
+}
+
