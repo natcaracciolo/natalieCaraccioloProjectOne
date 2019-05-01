@@ -13,6 +13,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
    
 }
 
+svg {
+    visibility: hidden;
+    float: right;
+    width: 2rem;
+}
+
 h2  {
     font-family: 'Nova Flat', cursive;
     color: #186684;
@@ -313,6 +319,7 @@ footer nav ul.menu a {
 footer h1 {
     color: #e85b26;
     font-family: 'Nova Flat';
+    line-height: 5rem;
 }
 
 .footerContact p,h1,
@@ -442,6 +449,11 @@ input.email {
 }
 
 @media (max-width: 929px) {
+
+    svg {
+    visibility: visible;
+
+    }
 
     header {
      background-position: 22% 50%;
@@ -595,9 +607,13 @@ input.email {
 }
 
 @media (max-width: 640px) {
+
+    svg {
+        visibility: visible;
+    }
     
     header {
-    background-image: url(assets/image-1-mobile.jpg);  	
+    background-image: url(assets/image-1-mobile@2x.png);  	
     background-position: 100% 1%;
     }
 
@@ -647,8 +663,13 @@ input.email {
     
     }
 
+    form {
+        padding-bottom: 10%;
+    }
+
     .givingBackPhoto {
-        margin-left: 10.5rem;
+        margin-left: 10%;
+        width: 80%;
     }
 
     .givingBackText {
@@ -667,8 +688,14 @@ input.email {
 
 @media (max-width: 555px) {
 
+    .headingBox h1, .headerSpan {
+    font-size: 4rem;
+     line-height: 5rem;
+
+    }    
+
 ul.menu a {
-    font-size: 14px;
+    padding: 10px;
 }
 
 .specializeContent {
@@ -680,8 +707,78 @@ ul.menu a {
     top: 35rem;
 }
 
+.headingBox h1, .headerSpan {
+    font-size: 4rem;
+
+}
+
+@media (max-width: 517px) {
+
+    .navContent{
+        width: 15%;
+        padding: 10px 0px;
+        left: 41%;
+        bottom: 0%;
 
 
+    }
 
+    header {
+        background-position: 0%;
+    }
+}
+
+@media (max-width: 472px) {
+
+    .navContent {
+
+        bottom: -50%;
+        width: 5rem;
+    
+    }
+
+    ul.menu a {
+        padding: 10px;
+    }
+
+    .headingBox {
+        left: 5rem;
+    
+    }
+    
+    .headingBox h1, .headerSpan {
+        font-size: 50px;
+    
+    }
+
+}
+
+@media (max-width: 417px) {
+
+    .specializeContent {
+    top: 21rem;
+    
+    }
+
+    ul.menu a {
+    font-size: 12px;
+    
+    }
+}
+
+@media (max-width: 320px) {
+
+    .specializeContent {
+        top: 18rem;
+    }
+
+    .footCareContent {
+        top: 33rem;
+    }
+
+    ul.menu a {
+        font-size: 12px;
+        padding: 5px;
+    }
 
 }
