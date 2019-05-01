@@ -375,10 +375,7 @@ input.email {
         width: 80%;
         left:80px;
         top: 100px;
-
     }
-
-
 
 }
 
@@ -440,11 +437,251 @@ input.email {
     .navContent a {
        font-size: 2rem;
     }
-    /* .products, 
-    .community, 
-    .content {
-        padding: 0;
-    } */
+
 
 }
 
+@media (max-width: 929px) {
+
+    header {
+     background-position: 22% 50%;
+    }
+
+    .headerSocials {
+        display: none;
+    }
+    header .menu {
+        display: none;
+    }
+
+    .specializeContent, 
+    .footCareContent {
+        top:40px;
+        font-size: 13px;
+    }
+    .givingBackText {
+        font-size: 13px;
+    }
+
+    .navContent {
+        left: 25%;
+        bottom: 10%;
+        width: 50%;
+    }
+
+
+    .navContent a  {
+        font-size: 30px;
+    }
+    .navContent p {
+        font-size: 20px;
+    }
+
+    p {
+        line-height: 20px;
+    }
+    .submit { 
+        width: 70%;
+      }
+
+      .specializeContent, 
+      .footCareContent {
+          top:40px;
+          font-size: 11px;
+      }
+
+      footer h1 {
+          font-size: 1.5rem;
+      }
+
+}
+
+@media (max-width: 833px) {
+
+    .navContent {
+        width: 20%;
+        padding: 10px 0px;
+        left: 41%;
+        bottom: 10%;
+    }
+
+    .products,
+    .community,
+    .contact {
+        float:none;
+        margin: 0 auto;
+        width: 75px;
+        padding: 0px;
+    }
+
+    .navContent a  {
+        font-size: 19px;
+    }
+    .navContent p {
+        font-size: 13px;
+    }
+
+
+
+    header {
+        background-position: 35% 50%;
+    }
+    .headingBox {
+        left: 20rem;
+    }
+
+
+    .givingBackText {
+        font-size: 11px;
+    }
+
+ 
+}
+
+@media (max-width: 767px) {
+     
+    h2  {
+        font-size: 1rem;
+    }
+
+    .headingBox {
+        left:17rem;
+    }
+
+    .navContent a, {
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 679px) {
+
+  header {
+    background-position: 31% 50%;
+
+  }
+
+  .headingBox {
+      left: 15rem;
+  }
+
+  .specializeContent, 
+  .footCareContent {
+      top:40px;
+      font-size: 9px;
+  }
+  .givingBackText {
+      font-size: 10px;
+  }
+
+}
+
+@media (max-width: 653px) {
+
+.navContent {
+    width: 20%;
+    padding: 10px 0px;
+    left: 41%;
+    bottom: 6%;
+}
+
+.specializeContent,
+.footCareContent {
+    font-size: 9px;
+    top: 20px;
+    left: 30px;
+
+
+}
+
+@media (max-width: 640px) {
+    
+    header {
+    background-image: url(assets/image-1-mobile.jpg);  	
+    background-position: 100% 1%;
+    }
+
+    .headingBox {
+        left: 7rem;
+    }
+
+    .specialize {
+
+    width: 100%;
+    float: none;
+    
+    }
+
+    .specializeContent, 
+    .footCareContent {
+
+        font-size: 9px;
+        top: 33rem;
+        left: 30px;
+        padding-bottom: 2rem;
+        margin: 20px;
+    
+    }
+
+    .specializePhoto {
+
+        width: 100%;
+        float: none;
+        padding-bottom: 20rem;
+    
+    }
+
+    .footCarePhoto {
+
+        width: 100%;
+        float: none;
+        padding-bottom: 20rem;
+    
+    }
+
+    .footCare {
+
+        width: 100%;
+        float: none;
+        bottom: 50rem;
+    
+    }
+
+    .givingBackPhoto {
+        margin-left: 10.5rem;
+    }
+
+    .givingBackText {
+        width: 80%;
+        text-align: center;
+    }
+
+    .footerContact,
+    .updateSection {
+        float:none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 555px) {
+
+ul.menu a {
+    font-size: 14px;
+}
+
+.specializeContent {
+
+    top:27rem;
+}
+
+.footCareContent{
+    top: 35rem;
+}
+
+
+
+
+
+}
